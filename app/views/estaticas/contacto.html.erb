@@ -1,2 +1,13 @@
+<%= provide(:titulo, 'Contacto') %>
+
 <h1>Estaticas#contacto</h1>
 <p>Find me in app/views/estaticas/contacto.html.erb</p>
+
+<%= params.inspect %>
+
+<p>ID: <%= params['id'] %></p>
+<p>PÁG: <%= params[:pagina] %></p>
+
+<br>
+<p>ID: <%= @id %></p>
+<p>PÁG: <%= @pagina %></p>
