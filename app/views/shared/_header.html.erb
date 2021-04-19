@@ -2,3 +2,10 @@
 <%= link_to 'Articulos', articulos_path %>
 <%= link_to 'Contacto', estaticas_contacto_path %>
 <%= link_to 'Nosotros', estaticas_nosotros_path %>
+
+<%= link_to 'Iniciar sesión', new_autor_session_path %>
+<%= link_to 'Cerrar sesión', destroy_autor_session_path, method: :delete %>
+<%if false%>
+<%= link_to 'Unirse', new_autor_registration_path %>
+<%= link_to 'Editar Autor', edit_autor_registration_path %>
+<%end%>
