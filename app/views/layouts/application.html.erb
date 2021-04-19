@@ -12,10 +12,9 @@
 
   <body>
 
+    <%= render 'shared/header' %>
+    
     <div class="container">
-
-      <%= render 'shared/header' %>
-
       <ul>
         <% flash.each do |k, value| %>
           <li><%= value %></li>

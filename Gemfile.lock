@@ -60,15 +60,10 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
       zeitwerk (~> 2.3)
-    autoprefixer-rails (10.2.4.0)
-      execjs
     bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.7.3)
       msgpack (~> 1.0)
-    bootstrap-sass (3.4.1)
-      autoprefixer-rails (>= 5.2.1)
-      sassc (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.3)
     concurrent-ruby (1.1.8)
@@ -80,7 +75,6 @@ GEM
       responders
       warden (~> 1.2.3)
     erubi (1.10.0)
-    execjs (2.7.0)
     ffi (1.15.0-x64-mingw32)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -198,7 +192,6 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
-  bootstrap-sass (~> 3.4.1)
   byebug
   devise (~> 4.7, >= 4.7.3)
   jbuilder (~> 2.7)
@@ -208,7 +201,6 @@ DEPENDENCIES
   rails (~> 6.1.3, >= 6.1.3.1)
   rails_12factor
   sass-rails (>= 6)
-  sassc-rails (>= 2.1.0)
   sqlite3
   turbolinks (~> 5)
   tzinfo-data
