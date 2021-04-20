@@ -4,7 +4,7 @@ class ArticulosController < ApplicationController
   before_action :correct_autor, only: [:edit, :update, :destroy]
 
   def index
-    @articulos=Articulo.all.order("created_at DESC")
+    @articulos=Articulo.all.order("created_at DESC").paginate(page: params[:page], per_page: 2)
   end
 
   def new
